@@ -6,7 +6,7 @@ export const route: Route = {
     path: '/rollnews/:lid?',
     categories: ['new-media'],
     example: '/sina/rollnews',
-    parameters: { lid: '分区 id，可在 URL 中找到，默认为 `2512`' },
+    parameters: { lid: '分区 id，可在 URL 中找到，默认为 `2514`' },
     features: {
         requireConfig: false,
         requirePuppeteer: false,
